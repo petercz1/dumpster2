@@ -1,0 +1,41 @@
+.jumbotron {
+  background-color: #1aa845;
+  /* dark pastel  blue */
+  color: #ffffff;
+}
+
+a[href^="tel:"] {
+  color: #ffd64d;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#call:before {
+  content: "\260e";
+  margin-right: 0.5em;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #1aa845;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #1aa845 !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
